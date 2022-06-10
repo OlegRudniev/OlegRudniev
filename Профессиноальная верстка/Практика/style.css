@@ -25,9 +25,31 @@ margin-left: 231px;
     margin-top: 19px;
     margin-right: 230px;
 }
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdownbtn{
+    border: none;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+    min-width: 220px;
+    z-index: 1;
+}
+.dropdown-content li{
+    display: block;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
 .image_header{
     margin-left: 15px;
 }
+
+
 .block_the_brand{
     max-width: 1600px;
     display: flex;
