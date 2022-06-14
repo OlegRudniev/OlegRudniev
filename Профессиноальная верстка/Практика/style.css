@@ -35,7 +35,7 @@ margin-left: 231px;
 .dropdown-content{
     display: none;
     position: absolute;
-    background-color: aliceblue;
+    background-color: white;
     min-width: 220px;
     z-index: 1;
 }
@@ -44,6 +44,27 @@ margin-left: 231px;
 }
 .dropdown:hover .dropdown-content{
     display: block;
+}
+.dropdown_h4{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 37px;
+    margin-left: 34px;
+
+}
+.header_menu_name{
+    color: rgba(241, 109, 127, 1);
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 20px;
+    margin-left: 33px;
+}
+.dropdown_li{
+    color: rgba(111, 110, 110, 1);
+    font-size: 14px;
+    margin-left: 54px;
+    margin-top: 11px;
 }
 .image_header{
     margin-left: 15px;
@@ -54,6 +75,7 @@ margin-left: 231px;
     max-width: 1600px;
     display: flex;
     justify-content: space-between;
+    background-color: rgba(241, 228, 230, 1);
 }
 .img_the_brand{
     width: 50%;
