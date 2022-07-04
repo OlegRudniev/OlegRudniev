@@ -1,3 +1,23 @@
+.header_log_brand{
+    height: 100px;
+}
+.header_col2-5{
+      margin-top: 30px;
+}
+.header_col4_korzinka{
+      margin-left: 200px;
+}
+.header_4coll_My_account{
+      text-decoration: none;
+      border: solid 1px red;
+      background-color: red;
+      height: 200px;
+      width: 300px;
+      
+}
+
+
+
 
 .pered_futer{
     display: flex;
